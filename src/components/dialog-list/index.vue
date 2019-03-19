@@ -21,7 +21,6 @@
             </el-radio>
           </template>
         </el-table-column>
-        <el-table-column min-width="30" align="center" label="id" prop="id"></el-table-column>
         <el-table-column min-width="120" align="center" label="名称" prop="title"></el-table-column>
         <el-table-column min-width="120" align="center" label="内容" prop="value"></el-table-column>
       </el-table>

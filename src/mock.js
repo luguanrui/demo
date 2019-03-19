@@ -19,9 +19,9 @@ function dataArr(count) {
         startDate: '@date', // 随机生成一个时间字符串
         endDate: new Date(Random.date()).getTime(), // 随机生成一个时间戳
         id: i, // id始终从0-10
-        title: '@cword(6)',
+        title: `优惠活动 - ${i}`,
         'type|1-4': 1,
-        'value|100-5000': 1,
+        value: `满1000减免 99`,
       }
     )
   }
